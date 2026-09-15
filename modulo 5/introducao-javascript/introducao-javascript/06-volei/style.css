@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #fff9db;
+  color: #5c3c00;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #f08c00;
+  color: #ffffff;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+header .nivel {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+  opacity: 0.85;
+  margin-bottom: 0.4rem;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+main {
+  flex: 1;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border-left: 6px solid #f08c00;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+#resultado {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.conceitos {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.conceitos h2 {
+  font-size: 1rem;
+  color: #f08c00;
+  margin-bottom: 0.75rem;
+}
+
+.conceitos ul {
+  list-style: disc;
+  padding-left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.dica {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #555555;
+}
+
+.dica code {
+  background-color: #fff9db;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  padding: 1.2rem;
+  font-size: 0.8rem;
+  color: #666666;
+}
